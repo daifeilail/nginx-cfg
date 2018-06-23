@@ -1,8 +1,9 @@
 #!/bin/bash
 #
-bin=/usr/local/nginx/sbin/nginx
-conf=/usr/local/nginx/conf/nginx.conf
-conf_directory=/usr/local/nginx/conf/vhost
+bin=/usr/sbin/nginx
+conf=/etc/nginx/nginx.conf
+conf_directory=/etc/nginx/conf.d    
+
 bak_directory=/root/nginx_backup
 timestamp=$(date +%Y%m%d_%H%M%S)
 type_opera=""
